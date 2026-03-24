@@ -8,4 +8,4 @@ def sum(self):
     print(f"sum of the number :{sum})
 
 sum()
-
+#sum of the number
