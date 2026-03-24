@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-#starting point
 int main(void)
 {
 	int *arr;
@@ -16,6 +15,5 @@ int main(void)
        }
 
        return 0;
-#end of the program
 }
     	 
