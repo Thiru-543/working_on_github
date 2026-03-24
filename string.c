@@ -8,6 +8,5 @@ int main(void)
 
 	printf("hello ! %s",name);
 	return 0;
-#end of the program 
 }	
 
