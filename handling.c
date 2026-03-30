@@ -12,6 +12,10 @@ int main(void)
 	rewind(ptr);
 	fseek(ptr,0,SEEK_SET);
 	fscanf(ptr,"%d %c %s ",&var,&a,name);
+	rewind(ptr);
+	fseek(ptr,15,SEEK_SET);
+	fprintf(ptr,"%d %c %s ",46,'H',"selvan");
+
 	printf(" name :%s  variable :%c  integer :%d\n",name,a,var);
 	fclose(ptr);
 	return 0;
