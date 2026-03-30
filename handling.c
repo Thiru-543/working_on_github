@@ -14,7 +14,7 @@ int main(void)
 	fscanf(ptr,"%d %c %s ",&var,&a,name);
 	rewind(ptr);
 	fseek(ptr,15,SEEK_SET);
-	fprintf(ptr,"%d %c %s ",46,'H',"selvan");
+	fprintf(ptr,"%s %s %s ",'23/4/2026',"hello","selvan");
 
 	printf(" name :%s  variable :%c  integer :%d\n",name,a,var);
 	fclose(ptr);
